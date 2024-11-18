@@ -2,7 +2,6 @@ openapi: 3.0.3
 info:
   title: SparkLayer Coding Test
   version: 1.0.11
-
 paths:
   /:
     post:
@@ -37,7 +36,6 @@ paths:
 components:
   schemas:
     To-Do-List:
-
       additionalProperties: false
       type: array
       items:
